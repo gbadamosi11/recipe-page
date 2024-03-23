@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Young Serif", sans-serif;
+}
+
+header {
+    margin: 5%;
+}
+main {
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px;
+    border-radius: 2.0rem;
+    width: 40%;
+    background-color: #fff;
+    padding: 3rem;    
+}
+
+img {
+    border-radius: 1.00rem;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-family: "Young Serif", sans-serif;
+    font-weight: 700px;
+    color: hsl(24, 5%, 18%);
+    padding-bottom: 1rem;
+    font-style: inherit;
+}
+
+p {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    padding-bottom: 1rem;
+}
+
+.text_description {
+    font-family: "Outfit", sans-serif;
+    background-color: #FFF7FC;
+    margin: 5% 0;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding-left: 5%;
+    border-radius: 1.00rem;
+}
+
+.title_2 {
+    color:  hsl(332, 51%, 32%);
+    padding-bottom: 1.5%;
+    padding-top: 4%;
+    font-weight: 400px;
+}
+
+ul li{
+    list-style-position: inside;
+    padding: 1.5%;
+    list-style: none;
+    color: hsl(30, 10%, 34%); 
+}
+
+ul li::before {
+    content: "•";
+    color:hsl(332, 51%, 32%);
+    display: inline-block;
+    width: 8%;
+    margin-left: 0.75em;
+    font-size: 16px;
+}
+
+h2 {
+    color:  hsl(14, 45%, 36%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400px;
+    padding: 1rem;
+}
+
+.list_2 {
+    font-family: "Outfit", sans-serif;
+    padding-bottom: 0.5rem;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: hsla(30, 10%, 34%, 20%);
+    margin: 20px 0;
+}
+
+ol li {
+    list-style-position: outside;
+    padding: 1.5%;
+    list-style-type: decimal; 
+    color: hsl(30, 10%, 34%); 
+    font-family: "Outfit", sans-serif;
+    margin-left: 2.5rem;
+}
+
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+table {
+    border-spacing: collapse;
+    width: 100%;
+    font-family: "Outfit", sans-serif;
+    width: 100%;
+    text-align: left;
+    padding: 3%;
+    font-size: 16px;
+}
+
+th, td {
+    border-bottom: 1px solid hsla(30, 10%, 34%, 20%);
+    padding: 1rem;
+    text-align: left;
+}
+
+th {
+    color: hsl(14, 45%, 36%);
+}
